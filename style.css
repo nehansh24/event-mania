@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    height: 100vh;
+    width: 100vw;
+    background-image: url('https://images.squarespace-cdn.com/content/v1/5a0099259f07f527da895c78/1517953567055-HSQ5B4J64MFH91Q6YYZB/Wedding+Staging.jpg?format=2500w');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+.navbar{
+    display: flex;
+    height: 60px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    gap:20rem;
+    padding:3rem 0.1%;
+
+}
+
+.heading {
+    color: rgb(247, 245, 242);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:  2.5rem;
+    padding: 0 0 0 50px;
+    text-align: center;
+}
+
+.nav-items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    gap: 2rem;
+    margin-right: 2rem;
+    
+}
+
+.nav-items a {
+    color: azure;
+    text-decoration: none;
+    transition: 0.8s;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+
+}
+
+.nav-items a:hover{
+     color: bisque;
+     transform: scale(1.1);
+}
+.home{
+    text-align: center;
+    padding:4rem;
+}
+.heading2 {
+    color: rgb(246, 244, 242);
+    padding-top: 170px;
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.heading3 {
+    color: rgb(246, 244, 242);
+    padding-top: 28px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.footer{
+    margin-top: 6rem;
+    background-color:#000 ;
+}
+
+
+.content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+
+.footer-items{
+    
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 4rem;
+    }
+
+.footer-items a{
+    color: azure;
+    text-decoration: none;
+}
+
+h5{
+    color: azure;
+    padding:0 10px 25px 175px;
+    width: 100%;    
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    
+}
+
+p{
+    color:#fff;
+    padding: 0 30rem 0 10rem;
+
+}
+
+.about{
+    padding: 0 0 50px 370px;
+}
+
+.image1{
+    padding-top: 19rem;
+    padding-left: 1rem;
+}
+
+.image2{
+    padding-top: 5rem;
+    padding-left: 1rem;
+}
+
